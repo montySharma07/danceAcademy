@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    padding: 3px 12px ;
+    /* background-color: rgb(255, 87, 87); */
+    background-color: grey
+}
+#navbar ul img{
+    height: 50px;
+}
+#navbar ul{
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 3px 8px;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 0px 30px;
+}
+#navbar ul li a:hover{
+    color: black;
+}
+
+#footer{
+    color: black;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}

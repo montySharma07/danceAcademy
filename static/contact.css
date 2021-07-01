@@ -1,0 +1,41 @@
+h1{color: black;
+font-size: 50px;
+text-align: center;
+padding-top: 35px;
+font-family: 'Dancing Script', cursive;
+}
+.myinput{
+    display: block;
+    font-size: 25px;
+    width: 60%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: 'Dancing Script', cursive;
+    outline-style: none;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+#btn{
+    width: 60%;
+    margin-top: 22px;
+    padding: 13px;
+    border-radius: 15px;
+    background-color: grey;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#in3{
+    -webkit-appearance: none;
+}

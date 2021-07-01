@@ -1,0 +1,28 @@
+extend base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/base.css
+      include ../static/home.css
+
+block content
+    section#intro 
+        div Welcome to Ambiance Dance Academy 
+        div Eat Sleep Dance Repeat
+    section#mission 
+        h2 Our Mission 
+        .card 
+          p Our mission is to instill a great love of dance, while inspiring self-confidence, discipline and respect of the performing arts. We provide a solid technical foundation for the developing dancer and creative adults in society.
+          p  Our goal is to give each individual dancer the tools they need to take dance as far as they dream to take it. We believe if you can dream it you can achieve it! Our instructors are skilled at identifying the specific needs of each student.
+          p We will develop well-prepared dancers, should they so choose to pursue the arts professionally or are college bound. Once a dancer always a dancer, dance is something students can come back to during all stages of their life.
+          p We will urge each student to strive daily for their personal best, as well as to support one another in fostering a sense of teamwork in the classroom dance is something students can come back to during all stages of their life.
+    section#sponsers 
+        h2 our sponsers 
+        .sponserImg 
+          img(src="./static/4.png", alt="Sponser" id="img1" Class="img")
+          img(src="./static/5.png", alt="Sponser" id="img2" Class="img")
+          img(src="./static/7.png", alt="Sponser" id="img4" Class="img")
+          img(src="./static/8.png", alt="Sponser" id="img5" Class="img")
